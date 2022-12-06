@@ -1,0 +1,15 @@
+.footer {
+  background-color: orange;
+}
+.footer .footer_top {
+  background-color: pink;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10%;
+}
+.footer .footer_top .newspaper {
+  background-color: green;
+}
+.footer .footer_top .categories {
+  background-color: blue;
+}/*# sourceMappingURL=Footer.css.map */

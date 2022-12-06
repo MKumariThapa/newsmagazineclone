@@ -1,0 +1,86 @@
+header {
+  background-color: #F0F0F0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  color: #000;
+  height: 4rem;
+}
+header h3 {
+  font-size: 2rem;
+  margin-left: 8%;
+  flex: 0.4;
+  display: flex;
+  align-items: center;
+}
+header .navs {
+  display: flex;
+  justify-content: space-evenly;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  margin-left: 12%;
+  align-items: center;
+}
+header nav a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  font-size: 1.2rem;
+  letter-spacing: -0.08rem;
+}
+header nav a:hover {
+  cursor: pointer;
+}
+header .nav-btn {
+  padding: 5px;
+  cursor: pointer;
+  visibility: hidden;
+}
+header .social_icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+  width: 20%;
+  margin-left: 7rem;
+  font-size: 1.2rem;
+}
+@media only screen and (max-width: 1024px) {
+  header .nav-btn {
+    visibility: visible;
+    opacity: 1;
+    margin-right: 8%;
+  }
+  header nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+    transition: 1s;
+    transform: translateY(-100vh);
+    flex-direction: column;
+    margin-left: 0%;
+  }
+  header .responsive_nav {
+    background-color: gray;
+    transform: none;
+    width: 100%;
+  }
+  header .nav-close-btn {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+  }
+  header .social_icons {
+    visibility: hidden;
+  }
+}/*# sourceMappingURL=Navbar.css.map */
