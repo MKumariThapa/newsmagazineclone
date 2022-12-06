@@ -31,13 +31,13 @@ const Navbar = () => {
           <Link to="/" onClick={hideNavbar}>
             Home page
           </Link>
-          <Link to="/about" onClick={hideNavbar}>
+          <Link to="/m" onClick={hideNavbar}>
             Simple post
           </Link>
-          <Link to="/about" onClick={hideNavbar}>
+          <Link to="/l" onClick={hideNavbar}>
             About us
           </Link>
-          <Link to="/about" onClick={hideNavbar}>
+          <Link to="/l" onClick={hideNavbar}>
             Blog
           </Link>
           <button className="nav-btn nav-close-btn" onClick={showNavBar}>
