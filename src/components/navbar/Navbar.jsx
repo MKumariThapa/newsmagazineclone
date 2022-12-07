@@ -48,6 +48,7 @@ const Navbar = () => {
         <div className="social_icons">
           <AiOutlineInstagram />
           <FaFacebookF />
+
           <FaLinkedinIn />
           <FaTwitter />
         </div>
