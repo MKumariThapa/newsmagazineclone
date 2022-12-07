@@ -14,7 +14,7 @@ function App() {
         <Topbar />
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/newsmagazineclone" element={<Home />} />
           {/* <Route index element={<Home />} /> */}
           {/* <Home /> */}
         </Routes>
