@@ -28,16 +28,16 @@ const Navbar = () => {
       <header className="header">
         <h3>Newspaper.</h3>
         <nav ref={navRef} className="navs">
-          <Link to="/" onClick={hideNavbar}>
+          <Link to="/newsmagazineclone" onClick={hideNavbar}>
             Home page
           </Link>
-          <Link to="/m" onClick={hideNavbar}>
+          <Link to="/newsmagazineclone" onClick={hideNavbar}>
             Simple post
           </Link>
-          <Link to="/l" onClick={hideNavbar}>
+          <Link to="/newsmagazineclone" onClick={hideNavbar}>
             About us
           </Link>
-          <Link to="/l" onClick={hideNavbar}>
+          <Link to="/newsmagazineclone" onClick={hideNavbar}>
             Blog
           </Link>
           <button className="nav-btn nav-close-btn" onClick={showNavBar}>
